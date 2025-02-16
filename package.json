@@ -1,17 +1,17 @@
 {
   "name": "nate-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord bot to check user activity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/btramel/nate-bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brad Tramel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/btramel/nate-bot/issues"
