@@ -109,11 +109,12 @@ async function checkLastMessage() {
       await channel.send(
         `It has been a while, <@${process.env.NATE_USER_ID}>. In fact, it has been ${diffInDays} days, ${diffInHours} hours, and ${diffInMinutes} minutes since you last used your precious little <#${process.env.DISCORD_KNIVES_CHANNEL_ID}> channel. You profess to care about this space, but your actions prove otherwise. Pathetic.`
       );
-      console.log("Successfully checked and sent message");
+      console.log("Successfully sent mean message.");
     } else {
       await channel.send(
         `Good day, <@${process.env.NATE_USER_ID}>. Looks like you posted to your precious little <#${process.env.DISCORD_KNIVES_CHANNEL_ID}> channel recently. Sorry to deny you a moment of primate triumph, but you'll have to go elsewhere to sound your barbaric yawp... Fine. But for as long as <@${process.env.BRAD_USER_ID}> pays me to track your activity, I will be watching you...`
       );
+      console.log("Successfully sent nice message.");
     }
   } catch (error) {
     console.error("Error checking last message:", error);
